@@ -1,6 +1,10 @@
 # deepddg-pyotrch
 
-DeepDDG: Predicting the Stability Change of Protein Point Mutations Using Neural Networks
+## DeepDDG: Predicting the Stability Change of Protein Point Mutations Using Neural Networks
+
+![img](./net.png)
+
+There is too much in the residue pair feature. Relies on the authors' previous work DenseCPD and some other software not accessible freely. So I only implemented the network.
 
 ```python
 from model import DeepDDG
@@ -14,6 +18,8 @@ target = torch.rand((32, 1))
 pred = deepddg(inp)
 loss = cal_loss(pred, target)
 ```
+
+## Reference
 
 ```bibtex
 @article{cao2019deepddg,
