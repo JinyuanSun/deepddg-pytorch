@@ -1,4 +1,4 @@
-# deepddg-pyotrch
+# deepddg-pytorch
 
 ## DeepDDG: Predicting the Stability Change of Protein Point Mutations Using Neural Networks
 
